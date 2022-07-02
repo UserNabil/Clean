@@ -1,0 +1,35 @@
+footer {
+    /* box-shadow: 30px 30px 30px 30px grey;     */
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #242423;
+}
+
+.foot-liste {
+    text-decoration: none;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foots {
+    font-size: 10px;
+    text-decoration: none;
+    margin-right: 100px;
+    color: #E8EDDF;
+}
+
+
+
+.follow-me-icons {
+    color: #E8EDDF;
+}
+
+.email {
+    color: #F5CB5C;
+}

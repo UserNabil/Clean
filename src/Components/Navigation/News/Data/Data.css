@@ -1,0 +1,49 @@
+table {
+    border-radius: 10px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px #242423;
+}
+
+td {
+	font-weight: bold;
+	padding: 30px;
+	text-align: center;
+	background-color: #f1f1f1;
+	color: #242423;
+}
+
+th {
+    padding: 15px;
+    color: #E8EDDF;
+	text-align: center;
+    background-color: #242423;
+}
+
+.more {
+	color: #082BCB;
+}
+
+.less {
+	color: #BB2D0C;
+}
+
+
+.imgRot {
+	position: relative;
+	animation: rotation 8s infinite;
+}
+  
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.prix {
+	color: #F5CB5C;
+	text-shadow: 10px  10px 10px 10px  #242423; 
+}

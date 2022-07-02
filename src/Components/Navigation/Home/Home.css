@@ -1,0 +1,18 @@
+.block-title {
+    font-size: 24px;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    color: #242423;
+    /* text-shadow: 2px 2px 2px #242423; */
+}
+
+.clics {
+    text-shadow: 2px 2px 2px #242423;
+    text-decoration: none;
+    color: #F5CB5C;
+}
+
+.clics:active {
+    text-shadow: 0 0 0 #242423;
+}
